@@ -17,9 +17,12 @@ Para esse projeto foi utilizado o ambiente Dev, para criação de MushUp para pu
 
 #### Passos Seguidos
 
-1. **Criação de Gráficos**: I
+1. **Criação de Gráficos**: Vamos utilizar o Dash que construimos.
 
-2. **Editor de Texto**: O editor de texto que utilizo é o Notepad++
+   <p align="center">
+   <img src= "P1 - OVERVIEW.jpeg">   
+
+3. **Editor de Texto**: O editor de texto que utilizo é o Notepad++
 
    <p align="center">
    <img src= "NOTEPAD++.jpeg">   
@@ -34,7 +37,7 @@ O primeiro passo é localiza o ID do Objeto na configurações do gráfico dentr
  A exportação é feito no ambiente dev ou no editor de texto, referenciando a div do objeto com o ID do gráfico obtido na etapa anterior:
 
    <p align="center">
-   <img src= "EXPORTjpeg">   
+   <img src= "EXPORT.jpeg">   
  
 Criação de KPI para:
 - Receita
