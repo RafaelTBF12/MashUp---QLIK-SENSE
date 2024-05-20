@@ -27,49 +27,38 @@ Para esse projeto foi utilizado o ambiente Dev, para criação de MushUp para pu
    <p align="center">
    <img src= "NOTEPAD++.jpeg">   
 
-4. **Integração dos Objetos HTML**:
+4. **Integração dos Objetos HTML E JS**:
 
 O primeiro passo é localiza o ID do Objeto na configurações do gráfico dentro do QLIK SENSE.
 
    <p align="center">
    <img src= "ID GRAF.jpeg">   
 
+O template padrão do ambiente de desenvolvedor do QLIK SENSE criar as div de objeto pelo HTML.
+
+CÓDIGO OBJETO = 
+
+        	<div class="container-fluid">
+		<div class="row linha_1">
+			<div class="col-xs-12 col-md-12">	
+				<div class="col-xs-12 fundo_preto card_1 borda_direita">
+					<div id="kpi_01_0" class="col-xs-12 col-md-12 kpi_l1">Lucro do Ano</div>
+					<div id="kpi_01_1" class="col-xs-12 col-md-6 kpi_l2_n">1</div>
+					<div class="col-xs-12 col-md-6 kpi_l2_s"><i class="fas fa-coins"></i></div>
+
+
  A exportação é feito no ambiente dev ou no editor de texto, referenciando a div do objeto com o ID do gráfico obtido na etapa anterior:
+
+ EXPORTAÇÃO DE GRÁFICO = 
+    
+        	//get objects -- inserted here --
+        	app.getObject('QV_SELECOES','CurrentSelections');
+         app.getObject('kpi_01_1','ygyQD');
 
    <p align="center">
    <img src= "EXPORT.jpeg">   
  
-Criação de KPI para:
-- Receita
-- Ticket Médio
-- Lucro
-- Vendas
 
-Além dessas métricas principais, o dashboard pode incluir filtros interativos que permitem aos usuários segmentar os dados por período, região, produto ou qualquer outra dimensão relevante. Isso proporciona uma visão personalizada e detalhada das finanças, adaptada às necessidades de diferentes usuários dentro da empresa.
-
-4. **Multiplos Visuais**
-
-   <p align="center">
-   <img src= "GRAF.jpeg">   
-
-4. **Graficos Gerais**
-   
-   <p align="center">
-   <img src= "P2 - GERAL.jpeg">
-    
-    MÉDIA DE DIAS DE ENTREGA = 
-        
-        avg({<Ano_Ordem={"$(=MAX(Ano_Ordem))"}>} Dias_Entrega)
-
-
-     Comprimento de Meta = 
-        
-       if((avg({<Ano_Ordem={"$(=MAX(Ano_Ordem))"}>} Dias_Entrega)/21)>1,1-((avg({<Ano_Ordem={"$(=MAX(Ano_Ordem))"}>} Dias_Entrega)/21)-1),1)
-
-5. **MAPA**: Configuração do gráfico de mapa
-
-   <p align="center">
-   <img src= "MAPA 1.jpeg">
    
 ## Resultado Final
 
