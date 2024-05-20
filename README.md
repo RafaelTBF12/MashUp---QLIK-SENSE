@@ -62,4 +62,7 @@ CÓDIGO OBJETO =
    
 ## Resultado Final
 
+   <p align="center">
+   <img src= "RESULTADO.jpeg">   
+
 O dashboard desenvolvido oferece uma visão completa dos indicadores financeiros da empresa, permitindo um monitoramento eficaz das métricas essenciais e facilitando a tomada de decisões estratégicas. Utilizando o Qlik Sense, a empresa pode acompanhar em tempo real a receita, o ticket médio, o lucro e as vendas, promovendo uma gestão financeira mais eficiente e proativa.
