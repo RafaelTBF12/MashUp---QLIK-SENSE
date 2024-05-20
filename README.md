@@ -1,23 +1,30 @@
-# Criação de Dashboard em Qlik Sense
+# Criação de MASHUP em Qlik Sense
 
 ## Entendimento do Problema
 
-Este dashboard ajuda a empresa a entender melhor os seus indicadores financeiros, utilizando o Qlik Sense para construir uma plataforma abrangente de análise e visualização de dados. O objetivo é criar um dashboard que facilite a visualização das informações financeiras e acompanhe métricas essenciais como receita, ticket médio, lucro e vendas.
+Este projeto tem como objetivo desenvolver um mashup utilizando o Qlik Sense, que consiste em uma página, site ou aplicativo da web que incorpora objetos do Qlik Sense de um ou mais aplicativos. A proposta é criar um serviço com uma interface gráfica exclusiva, facilitando a visualização e interação com os dados de forma customizada.
 
-A construção deste dashboard começa com a coleta de dados financeiros detalhados, que são então organizados e carregados no Qlik Sense. Uma vez no Qlik Sense, esses dados são transformados em visualizações dinâmicas e interativas, permitindo uma análise aprofundada e em tempo real das finanças da empresa.
+### Alternativa
 
-O dashboard inclui várias seções e gráficos que destacam diferentes aspectos das operações financeiras:
+Hoje o QLik Sense possibilita a criação de dashboards mais elaborados atráves da inserção de backgroud e o sistemas de botões vinculado aos indicadores, muito similar ao Power BI.
+
+Esses backgrouds podem ser criados em diversas ferramentas de edição, atento apenas as parametros de grades, segue modelo criado no Figma:
 
    <p align="center">
-   <img src= "P1 - OVERVIEW.jpeg">
+   <img src= "FIGMA.jpeg">   
 
-### Passos Seguidos
+Para esse projeto foi utilizado o ambiente Dev, para criação de MushUp para publicação dos objetos em pagina web.
 
-1. **Carregar dados no Qlik Sense Desktop**: Integração com arquivos excel.
+#### Passos Seguidos
 
-2. **Preparação dos Dados no Desktop**: As colunas que não "Hórario", "Task ID" e "Identificação" foram desflegada pois não tinham uso em nossos visuais
+1. **Criação de Gráficos**: I
 
-3. **KPI's**:
+2. **Editor de Texto**: O editor de texto que utilizo é o Notepad++
+
+   <p align="center">
+   <img src= "NOTPAD++.jpeg">   
+
+4. **Integração dos Objetos HTML**:
    
 Criação de KPI para:
 - Receita
