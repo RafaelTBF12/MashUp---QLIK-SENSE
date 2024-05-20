@@ -11,7 +11,7 @@ Hoje o QLik Sense possibilita a criação de dashboards mais elaborados atráves
 Esses backgrouds podem ser criados em diversas ferramentas de edição, atento apenas as parametros de grades, segue modelo criado no Figma:
 
    <p align="center">
-   <img src= "FIGMA.jpeg">   
+   <img src= "FIGMA LAYOUT.jpeg">   
 
 Para esse projeto foi utilizado o ambiente Dev, para criação de MushUp para publicação dos objetos em pagina web.
 
@@ -22,10 +22,20 @@ Para esse projeto foi utilizado o ambiente Dev, para criação de MushUp para pu
 2. **Editor de Texto**: O editor de texto que utilizo é o Notepad++
 
    <p align="center">
-   <img src= "NOTPAD++.jpeg">   
+   <img src= "NOTEPAD++.jpeg">   
 
 4. **Integração dos Objetos HTML**:
-   
+
+O primeiro passo é localiza o ID do Objeto na configurações do gráfico dentro do QLIK SENSE.
+
+   <p align="center">
+   <img src= "ID GRAF.jpeg">   
+
+ A exportação é feito no ambiente dev ou no editor de texto, referenciando a div do objeto com o ID do gráfico obtido na etapa anterior:
+
+   <p align="center">
+   <img src= "EXPORTjpeg">   
+ 
 Criação de KPI para:
 - Receita
 - Ticket Médio
